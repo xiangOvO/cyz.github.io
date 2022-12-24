@@ -19,7 +19,7 @@ var bbiTL = new TimelineMax(),
 			.fromTo(middle_tree, 0.6, { opacity: 0, scale: 0, xPercent: 50, yPercent: 100 }, { scale: 1, ease: Back.easeOut.config(2), xPercent: 0, yPercent: 0, opacity: 1}, 6.9)
 			.fromTo(left_tree, 0.6, { opacity: 0, scale: 0, xPercent: 50, yPercent: 100 }, { scale: 1, ease: Back.easeOut.config(2), xPercent: 0, yPercent: 0, opacity: 1}, 6)
 			.fromTo(right_tree, 0.6, { opacity: 0, scale: 0, xPercent: 50, yPercent: 100 }, { scale: 1, ease: Back.easeOut.config(2), xPercent: 0, yPercent: 0, opacity: 1}, 6.3)
-			.fromTo(bbi, 1.5, { scale: 0, xPercent: 50, yPercent: 100 }, { scale: 1, ease: Bounce.easeOut, xPercent: 0, yPercent: 0}, 7.5)
+			.fromTo(bbi, 1.5, { scale: 0, xPercent: 300, yPercent: 1500 }, { scale: 1, ease: Bounce.easeOut, xPercent: 300, yPercent: 1500}, 7.5)
 
 			happyNewYear();
 		
